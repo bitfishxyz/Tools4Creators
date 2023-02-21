@@ -49,6 +49,10 @@ platforms:
     url: https://youtube.com/
     img: /images/logos/youtube.png
     description: Bigger video share platform.
+  - name: Medium
+    url: https://medium.com/
+    img: /images/logos/medium.png
+    description: Writing platform.
 devTools:
   - name: Github
     url: https://github.com/
