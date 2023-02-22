@@ -1,16 +1,21 @@
-favicon: /favicon.ico
+favicon: /images/icon.png
 banner: /images/icon.png
 
 logo:
-  expanded: /images/icon.png
-  collapsed: /images/icon.png
+  expanded: /images/longLogo.jpg
+  collapsed: /images/logo64.png
   dark: /images/icon.png
 
 flag: false
-  # - name: Chinesesddfg
+  # - name: for creators
   #   default: true
-  #   icon: flag-cn
+  #   # icon: flag-cn
   #   index: /index.html
+
+  # - name: for developers
+  #   index: https://substack.com
+
+  
 
 search: false
 
@@ -33,7 +38,7 @@ menu:
     config: platforms
 
   - name: Sponsors
-    # icon: far fa-star
+    icon: far fa-star
     config: sponsors
 
   - name: AI Art
@@ -76,26 +81,22 @@ aiDrawing:
     description: 专业的绘画软件
 
 about:
-  url: https://substack.com/
+  url: https://mrrock.medium.com/
   icon: far fa-heart
-  name: newsletter
+  name: My Blog
 
-newsletter:
-  url: https://substack.com/
-  icon: far fa-heart
-  name: newsletter
 
-aboutPage:
-  website:
-    head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
-  webmaster:
-    head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
-    img: /images/logos/myblog.png
-    description: 懒人一个
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+# aboutPage:
+#   website:
+#     head: 关于本站
+#     html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+#   webmaster:
+#     head: 关于站长
+#     name: HCLonely
+#     url: https://blog.hclonely.com/
+#     img: /images/logos/myblog.png
+#     description: 懒人一个
+#     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
 since: 2023
 
